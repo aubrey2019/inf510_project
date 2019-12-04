@@ -1,0 +1,69 @@
+1.The name of team mumber: 
+Muyuan Yang
+
+
+2.How to run the codes:
+You should run the file “main.py” in the terminal with the command [- - Remote] for remote use. If you have downloaded the data once, you may use[- - Local] command for local manipulate next time. To show this commands, you may use [- h] to view helps and instructions in command line. Once you use the [- - Remote], you will invoke the code, it will download TOP100 Universities in UK ’s information  and store them in the file :/data. In that file, you will find a .db document called “crimerecord.db” which contains three tables to show school ranks, coordinates and crime records from Jan. to Oct.,2019. 
+(If you start with “- - Local”, it begins here)After that, the code will invoke the analysis part, it will organize, extract the useful data from the initial database and create three new tables to save these new data. And it will generate two general statistical graphs automatically and save them in same path. Then you can find an interface, just use number to make your query under the text instructions. If your query’s result is a graph, it will be saved to the same path, too. Use number “8” to quit the program.
+
+
+3.Any major “gotchas” to the code:
+The speed of data scraping is not fast enough(About 12mins) And  charts are not beautiful enough.
+
+
+4.Anything else  relevant to the grading of my project:
+You can generate the graphs separately under your thoughts rather than get all the graphs at same time. In other words, you can custom your analysis in this project.
+
+
+5.What did I set out to study? 
+I design this project to see the crime records’ distribution of UK’s famous universities. 
+By analyzing the crime records of each university, I may define whether a British university is safe or not. And I also can show what are top crime types for a school. At the same time, I  do some research about the ‘crime’ itself. For instance, I gave the distribution graph of crime records by schools and month and give a trend  graph to show them directly. The result of my project may be applied to reference for other students, they can find out that the safety condition of British universities.
+
+
+
+6.What did you Discover/what were your conclusions :
+TOP 10 Dangerous UK University :
+London South Bank
+Cardiff
+Oxford
+University of the Arts, London
+York
+Edinburgh
+Teesside
+Southampton
+Brunel University London
+Loughborough
+
+Universities without crime records in last ten month:
+Edge Hill
+Edinburgh Napier
+Heriot-Watt
+Liverpool Hope
+Liverpool John Moores
+Northumbria
+Nottingham
+Nottingham Trent
+St Andrews
+Staffordshire
+Sussex
+
+For most schools, “anti-social-behaviour” is the most common crime type.
+
+Not only general speaking, but also for the most schools, Jan.-Feb. & June-July always has the least crime records. We can infer that crime are more likely to occur in formal semesters rather than vocations.
+
+
+7.What difficulties did you have in completing the project? 
+It took me long time to deal with SQL, especially about how to use joint within more than one tables. Another difficult for me is  how to use the  “argparser” to indicate users whether they will run the main file. 
+
+8.What skills did you wish you had while you were doing the project?  I wish I had stronger skills about data visualization. For my result, all the visualization part is present as static graph. If I could plot some dynamic graphs, the soundness of effect will be strengthened.
+
+
+9.What would you do “next” to expand or augment the project?  For next step, I may design a new grader system for these schools. As a result, I can give every school a “Safety Index” to show it safety condition. Further, I can combine the original score with this index, give them a weighted algorithm to calculate the final score of a school.  So I can reorganize the school list to give a new rank which contains the safety factor.
+ 
+
+ 
+
+
+ 
+
+
