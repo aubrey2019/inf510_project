@@ -242,16 +242,10 @@ class analysis():
             else:
                 print("please enter a correct number")
 
+        return df
+
  
 
-        return df
-                
-#test 
-#a=analysis()
-#a1=a.STAT()
-#a2=a.query()
-
-                
             
 
         
